@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <head>
+  <title>Andrew Tang|Internet Presence </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <style>
 img {
   max-width: 100%;
@@ -44,25 +51,116 @@ div {
 <!-- Intro -->
 <section class="w3-container w3-center w3-content" style="max-width:800px">
   <div>
-  <h2 class="w3-xxxlarge">Hi! My name is Andrew Tang.</h2>
+  <h2 class="w3-xxxlarge">My name is Andrew Tang.</h2>
   <p class="w3-opacity w3-xlarge"><i>Welcome to my website.</i></p>
+
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">About Me</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header bg-primary">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About Me</h4>
+        </div>
+        <div class="modal-body" >
+          <p>Hi! I am a second year computer science major at the University of California, Berkeley. I am interested in data security, software development and am currently working on a few side projects. I love basketball and am a Miami Heat fanatic. #OneLastDance. Please explore more of this website to learn more about me!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
   </div>
 </section>
 
 
 <!-- Projects-->
 <section id="projects">
-  <h2 class="w3-center w3-wide">Projects</h2>
+  <h2 class="w3-center">Personal Projects</h2>
   <section class="w3-row-padding w3-center w3-light-grey">
     <article class="w3-third">
-      <p>BearMaps</p>
-      
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#receipt">Receipt Splitter</button>
+        <div class="modal fade" id="receipt" role="dialog">
+          <div class="modal-dialog modal-lg">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Receipt Splitter</h4>
+              </div>
+              <div class="modal-body" >
+                <p>rec</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        </div>
+
+        <img src="./receipt.jpg" alt="facebook.com" style="width:300px;height:420px;border:100;">
     </article>
     <article class="w3-third">
-      <p>Earthquake App</p>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#earthquake">Earthquake App</button>
+        <div class="modal fade" id="earthquake" role="dialog">
+          <div class="modal-dialog modal-lg">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Earthquake App</h4>
+              </div>
+              <div class="modal-body" >
+                <p>earthquake app</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        </div>
+        <img src="./earthquake.jpg" alt="facebook.com" style="width:300px;height:420px;border:100;">
+
     </article>
     <article class="w3-third">
-      <p>CalClubs Webpage</p>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#clubs">CalClubs Webpage</button>
+        <div class="modal fade" id="clubs" role="dialog">
+          <div class="modal-dialog modal-lg">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">CalClubs Webpage</h4>
+              </div>
+              <div class="modal-body" >
+                <p>cal clubs</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        </div>
+        <img src="./clubs.jpg" alt="facebook.com" style="width:300px;height:420px;border:100;">
+
     </article>
   </section>
 </section>
