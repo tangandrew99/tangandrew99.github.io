@@ -1,228 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<head>
-  <title>Andrew Tang | Internet Presence </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<style>
-img {
-  max-width: 100%;
-  height: auto;
-}
-div {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
+    <title>Andrew Tang | Internet Presence</title>
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Menu CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/menu_sideslide.css">
+    <!-- Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slide-style.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
-.navbar a.right {
-  float: right;
-}
+  </head>
+  <body>
 
-</style>
-</head>
-
-<body>
-
-<!-- Navigation -->
-<nav class="w3-bar w3-black">
-  <a href="#projects" class="w3-button w3-bar-item">Projects</a>
-  <a href="#resume" class="w3-button w3-bar-item">Resume</a>
-  <a href="#contact" class="w3-button w3-bar-item right">Contact</a>
-</nav>
-
-
-<!-- Slide Show -->
-
-<section>
-  <img class="mySlides" src="./blackandwhite.jpg"  style="width:100%">
-  <img class="mySlides" src="./berk.jpg"  style="width:100%">
-  <img class="mySlides" src="./beyboard.png"  style="width: 100%">
-</section>
-
-<!-- Intro -->
-<section class="w3-container w3-center w3-content" style="max-width:800px">
-  <div>
-  <h2 class="w3-xxxlarge">My name is Andrew Tang.</h2>
-  <p class="w3-opacity w3-xlarge"><i>Welcome to my website.</i></p>
-
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">About Me</button>
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header bg-primary">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">About Me</h4>
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">
+                  Work
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">
+                  Life
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="modal-body" >
-          <p>Hi! I am a second year computer science major at the University of California, Berkeley. I am interested in data security, software development and am currently working on a few side projects. I love basketball and am a Miami Heat fanatic. #OneLastDance. Please explore more of this website to learn more about me!</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+        <!-- Mobile Menu Start -->
+        <ul class="onepage-nev mobile-menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#resume">resume</a>
+          </li>
+          <li>
+            <a href="#portfolio">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <div class="contents">
+                <p class="script-font wow fadeInUp" data-wow-delay="0.5s">Welcome! My name is</p>
+                <h2 class="head-title wow fadeInUp" data-wow-delay="1s">Andrew Tang</h2>
+                <p class="script-font wow fadeInUp" data-wow-delay="1.5s">Computer Science Student</p>
+                <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                  <li>
+                    <a class="facebook" href="https://www.facebook.com/andrew.tang.9026"><i class="icon-social-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a class="linkedin" href="https://www.linkedin.com/in/andrew-tang-49bb54165/"><i class="icon-social-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a class="github" href="https://github.com/tangandrew99"><i class="icon-social-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
+            </div>
+          </div> 
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-md-4 text-center">
+            <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.5s">
+              <h1>About Me</h1>
+              <h1> <small>I am a third year computer science major at the University of California, Berkeley. I am interested in data security, software development and am currently working on a few side projects. When I am not watching basketball, I love to learn new things and discover more about myself. Some hobbies of mine include rock climbing, learning the guitar, and hosting board game nights.</small> 
+              </h1>
+              <div class="clearfix"></div>
+              <a href="assets/resume.pdf" class="btn btn-common"><i class="icon-paper-clip"></i> My Resume</a>
+            </div>
+
+          </div>   
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Work Section Start -->
+    <div id="resume" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="education wow fadeInRight" data-wow-delay="0.3s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-chemistry"></i>
+                  <h2 class="timelin-title">Projects</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Earthquake Relief App</h3>
+                    <span>October 2017</span>
+                    <p class="line-text"> Built archetype for real-time earthquake alert app for Android.<br>Used basic XML user interface tool to create and design template for nearest hospitals, public shelters, and food banks.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Monero Cryptocurrency</h3>
+                    <span>August 2018</span>
+                    <p class="line-text">
+                      Built computer with Radeon Vega GPU that performed with a hash rate of 1339.7 Hashes per second.
+                      <br>
+                      Accomplished a hash rate 10x speed faster than the average GPU.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Data Aggregation Model, Synopsys Science Fair</h3>
+                    <span>March 2015</span>
+                    <p class="line-text">
+                        Worked with findlaw.com on analyzing recent real-time DDoS attacks. <br>
+                        Created an algorithm that accurately targets the source location of malicious web behavior.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-briefcase"></i>
+                  <h2 class="timelin-title">Experience</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Software Development Engineer Intern - Amazon</h3>
+                    <span>May 2019 - August 2019</span>
+                    <p class="line-text">
+                      Integrated ELK stack onto enforcement service that created for metrics, dashboards, and alarms to track application logs. <br>
+                      Delivered actionable insights in real time which reduced engineering team’s debugging time by 90%.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Data Analyst - Clear Cloud Global</h3>
+                    <span>Nov 2016 - Dec 2017</span>
+                    <p class="line-text">
+                      Studied big data analysis, machine learning, network security protocols.<br>
+                      Trained a domain-name recognition model to increase detection rate of malicious Chinese domain names by 20%.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Data Structure Instructor - Computer Science Mentors</h3>
+                    <span>Mar 2015 - Oct 2016</span>
+                    <p class="line-text">
+                      Mentored group of students through core Data Structures concepts like Maps, Graphs, DFS, BFS and Tries.<br>
+                      Held review sessions and created detailed worksheets for upcoming midterms.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+    <!-- Resume Section End -->
 
-  </div>
-</section>
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section-padding">
+      <!-- Container Starts -->
+      <div class="container">        
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Remarkable Works</h2>
+        <div class="row">          
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center">
+              <a class="filter active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="filter btn btn-common" data-filter=".design">
+                Design 
+              </a>
+              <a class="filter btn btn-common" data-filter=".development">
+                Development
+              </a>
+              <a class="filter btn btn-common" data-filter=".print">
+                Print 
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
 
-
-<!-- Projects-->
-<section id="projects">
-  <h2 class="w3-center">Personal Projects</h2>
-  <section class="w3-row-padding w3-center w3-light-grey">
-    <article class="w3-third">
-      <div>
-        <img src="./receipt.jpg" alt="facebook.com" style="width:300px;height:420px;border:100;">
-      </div>
-      <div>
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#receipt">Receipt Splitter</button>
-        <div class="modal fade" id="receipt" role="dialog">
-          <div class="modal-dialog modal-lg">
-          
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header bg-primary">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Receipt Splitter</h4>
-              </div>
-              <div class="modal-body" >
-                <p>In a quest to make sure checks are split evenely during dinners, my friends and I decided to make a receipt splitter web app together. During CalHack 5.0 in the fall of 2019, we utilized Node.js, HTML, CSS, and Javascript to construct an app that can seperate each person's order's totals given a picture of the receipt. Currently, we are still hashing a few things out, but it will be available to the public soon!</p>
-                <a href="https://github.com/nathanchou4/ReceiptSplitter" target="_blank">Github Link</a>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <!-- Portfolio Recent Projects -->
+          <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-1.jpg" alt="" />  
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
               </div>
             </div>
-            
-          </div>
-        </div>
-
-        </div>
-      </div>
-
-        
-    </article>
-    <article class="w3-third">
-      <div>
-        <img src="./earthquake.jpg" alt="facebook.com" style="width:300px;height:420px;border:100;">
-      </div>
-      <div>
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#earthquake">Earthquake App</button>
-        <div class="modal fade" id="earthquake" role="dialog">
-          <div class="modal-dialog modal-lg">
-          
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header bg-primary">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Earthquake App</h4>
-              </div>
-              <div class="modal-body" >
-                <p>An earthquake is bound to hit Berkeley. It is inevitable. And I wanted to help, somehow. Thus, a group of friends and I teamed up during CalHacks 4.0 to create an Earthquake Alert App that would notify users of nearby earthquakes, food shelters, hospitals, and more. The app is connected to usgs.gov to provide real-time notifications and updates. If an earthquake ever shakes Berkeley, users will be well equiped to get back on their feet in no time! 
-                I used Javascript and Android studio to help develop the front-end of this mobile app!</p>
-                <a href="https://github.com/tangandrew99/Earthquake-App" target="_blank">Github Link</a>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-2.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
               </div>
             </div>
-            
-          </div>
-        </div>
-
-        </div>
-      </div>
-
-    </article>
-    <article class="w3-third">
-        <div>
-          <img src="./clubs.jpg" alt="facebook.com" style="width:300px;height:420px;border:100;">
-        </div>
-      <div>
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#clubs">CalClubs Webpage</button>
-        <div class="modal fade" id="clubs" role="dialog">
-          <div class="modal-dialog modal-lg">
-          
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header bg-primary">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">CalClubs Webpage</h4>
-              </div>
-              <div class="modal-body" >
-                <p>Coming (Real)Soon!!</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-3.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-3.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
               </div>
             </div>
-            
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-4.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-4.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-5.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-6.jpg" alt=""/>
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends --> 
 
+    <!-- Footer Section Start -->
+    <footer class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+              <ul class="social-icon">
+                  <li>
+                      <a class="facebook" href="https://www.facebook.com/andrew.tang.9026"><i class="icon-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a class="linkedin" href="https://www.linkedin.com/in/andrew-tang-49bb54165/"><i class="icon-social-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a class="github" href="https://github.com/tangandrew99"><i class="icon-social-github"></i></a>
+                    </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+    </footer>
+    <!-- Footer Section End -->
 
-    </article>
-  </section>
-</section>
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
 
-<!-- Resume -->
-<section id="resume">
-  <h2 class="w3-center">Resume</h2>
-  <section class="w3-row-padding w3-center w3-white">
-    <article class="w3-center">
-      <div> 
-        <img src="./resume.jpg" alt="facebook.com" style="width:300px;height:420px;border:0;">
-      </div>
-      <div>
-        
-        <a href="./resume.pdf" target="_blank">View Resume</a>
-      </div>
-    </article>
-  </section>
-</section>
-
-<!-- Footer -->
-<footer id ="contact" class="w3-container w3-padding-64 w3-center w3-light-grey w3-xlarge">
-  <a href="https://www.facebook.com/andrew.tang.9026"><i class="fa fa-facebook-official"></i></a>
-  <a href="https://github.com/tangandrew99"><i class="fa fa-github"></i></a>
-  <a href="https://www.linkedin.com/in/andrew-tang-49bb54165/"><i class="fa fa-linkedin"></i></a>
-</footer>
-
-
-<script>
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 5000);
-}
-</script>
-
-</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>  
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/map.js"></script>
+      
+  </body>
 </html>
-
